@@ -1,0 +1,204 @@
+.user_app {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #50505f;
+}
+
+.user_app .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-evenly;
+  -webkit-align-items: space-evenly;
+      -ms-flex-align: space-evenly;
+          align-items: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.user_app .container .navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100%;
+  width: 20%;
+  background: -webkit-linear-gradient(45deg, #1e1e23, #282a32);
+  background: -o-linear-gradient(45deg, #1e1e23, #282a32);
+  background: linear-gradient(45deg, #1e1e23, #282a32);
+}
+
+.user_app .container .navbar .logo {
+  width: 100%;
+  padding: 50px 35px;
+  color: white;
+}
+
+.user_app .container .navbar .tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px 35px;
+}
+
+.user_app .container .navbar .logout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px 35px;
+}
+
+.user_app .container .navbar .link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0;
+  color: #6e6f73;
+}
+
+.user_app .container .navbar .link .icon {
+  fill: #6e6f73;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.user_app .container .navbar .link .icon-task {
+  background: #6e6f73;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  border: 1px solid #6e6f73;
+}
+
+.user_app .container .navbar .link .icon-task .outer {
+  fill: #23242a;
+}
+
+.user_app .container .navbar .link .icon-task .inner {
+  fill: #6e6f73;
+}
+
+.user_app .container .navbar .focused {
+  color: #e1e1e1;
+}
+
+.user_app .container .navbar .focused .icon {
+  fill: #e1e1e1;
+}
+
+.user_app .container .navbar .focused .icon-task {
+  background: #e1e1e1;
+  border: 1px solid #e1e1e1;
+}
+
+.user_app .container .navbar .focused .icon-task .inner {
+  fill: #e1e1e1;
+}
+
+.user_app .container .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: scroll;
+  height: 100%;
+  width: 80%;
+  background: -webkit-linear-gradient(60deg, #15161a, #3a3b48);
+  background: -o-linear-gradient(60deg, #15161a, #3a3b48);
+  background: linear-gradient(30deg, #15161a, #3a3b48);
+}
